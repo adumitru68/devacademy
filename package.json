@@ -1,0 +1,18 @@
+{
+  "name": "devcademy",
+  "version": "1.0.0",
+  "description": "learning ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adumitru68/devcademy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adumitru68/devcademy/issues"
+  },
+  "homepage": "https://github.com/adumitru68/devcademy#readme"
+}
