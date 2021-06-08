@@ -4,17 +4,19 @@ const path = require('path');
 
 const isProduction = process.env.NODE_ENV == 'production';
 
-
 const stylesHandler = 'style-loader';
 
 const config = {
-    entry: './src/index.ts',
+    entry: {
+        index: './src/index.ts'
+    },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public/dist'),
     },
     devServer: {
         open: true,
-        host: 'localhost',
+        host: 'lesson7.devcademy.loc',
+        contentBase: path.join(__dirname, 'public'),
     },
     plugins: [
         // Add your plugins here
