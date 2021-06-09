@@ -11,11 +11,11 @@ const config = {
         index: './src/index.ts'
     },
     output: {
-        path: path.resolve(__dirname, 'public/dist'),
+        path: path.resolve(__dirname, 'public/build'),
     },
     devServer: {
         open: true,
-        host: 'lesson7.devcademy.loc',
+        host: 'devacademy.loc',
         contentBase: path.join(__dirname, 'public'),
     },
     plugins: [
