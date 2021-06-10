@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/adumitru68/devcademy#readme",
   "devDependencies": {
+    "@types/jquery": "^3.5.5",
     "@webpack-cli/generators": "^2.2.0",
     "autoprefixer": "^10.2.6",
     "css-loader": "^5.2.6",
+    "jquery": "^3.6.0",
     "postcss": "^8.3.0",
     "postcss-loader": "^5.3.0",
     "style-loader": "^2.0.0",
