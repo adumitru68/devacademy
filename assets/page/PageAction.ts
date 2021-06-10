@@ -1,4 +1,5 @@
 import {ApiData} from "../libs/ApiData";
+const jQuery = require('jquery')
 
 export class PageAction {
 
@@ -23,7 +24,7 @@ export class PageAction {
     }
 
     private initList() {
-        jQuery.each(ApiData.getUsers(),  (index, user) => {
+        jQuery.each(ApiData.getUsers(),  (index:number, user:any) => {
             let newElement = jQuery('<div class="person_list_item js_person_item">')
             newElement.html(user.name)
             newElement.attr('data-user', JSON.stringify(user))
