@@ -8,7 +8,7 @@ const stylesHandler = 'style-loader';
 
 const config = {
     entry: {
-        index: './src/index.ts'
+        ts_project: './assets/ts_project.ts'
     },
     output: {
         path: path.resolve(__dirname, 'public/build'),
