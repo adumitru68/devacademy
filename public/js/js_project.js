@@ -1,10 +1,10 @@
 var pageAction = (function () {
 
     function bindRemoveItem() {
-        jQuery('.js_person_remove').on('click', function (e) {
+        jQuery('#js_person_list').on('click', '.js_person_remove', function (e) {
             var confirmation = confirm('Remove person?')
             if(confirmation) {
-                alert('Remove person method not implemented!')
+                jQuery(this).closest('.js_person_item').remove()
             }
         })
     }
