@@ -27,14 +27,6 @@ var pageAction = (function () {
         })
     }
 
-    function validateName() {
-        var personName = jQuery('#js_person_name').val().trim()
-        if('' === personName) {
-            alert(pl)
-        }
-
-    }
-
     function readEvents() {
         bindRemoveItem()
         bindAddItemButton()
