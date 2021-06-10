@@ -1,1 +1,1 @@
-# js-type
+# devacademy
